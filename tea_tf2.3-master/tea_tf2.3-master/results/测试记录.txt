@@ -1,0 +1,114 @@
+D:\Desktop\A\app\Anaconda\envs\hehe\python.exe D:\Desktop\A\tea_tf2.3\tea_tf2.3-master\tea_tf2.3-master\data_split.py
+开始数据集划分
+*********************************algal leaf*************************************
+algal leaf类按照0.8：0.2：0.0的比例划分完成，一共113张图片
+训练集D:/Desktop/A/tea_tf2.3/tea_tf2.3-master/new_data\train\algal leaf：91张
+验证集D:/Desktop/A/tea_tf2.3/tea_tf2.3-master/new_data\val\algal leaf：22张
+测试集D:/Desktop/A/tea_tf2.3/tea_tf2.3-master/new_data\test\algal leaf：0张
+*********************************Anthracnose*************************************
+Anthracnose类按照0.8：0.2：0.0的比例划分完成，一共100张图片
+训练集D:/Desktop/A/tea_tf2.3/tea_tf2.3-master/new_data\train\Anthracnose：81张
+验证集D:/Desktop/A/tea_tf2.3/tea_tf2.3-master/new_data\val\Anthracnose：19张
+测试集D:/Desktop/A/tea_tf2.3/tea_tf2.3-master/new_data\test\Anthracnose：0张
+*********************************bird eye spot*************************************
+bird eye spot类按照0.8：0.2：0.0的比例划分完成，一共100张图片
+训练集D:/Desktop/A/tea_tf2.3/tea_tf2.3-master/new_data\train\bird eye spot：81张
+验证集D:/Desktop/A/tea_tf2.3/tea_tf2.3-master/new_data\val\bird eye spot：19张
+测试集D:/Desktop/A/tea_tf2.3/tea_tf2.3-master/new_data\test\bird eye spot：0张
+*********************************brown blight*************************************
+brown blight类按照0.8：0.2：0.0的比例划分完成，一共113张图片
+训练集D:/Desktop/A/tea_tf2.3/tea_tf2.3-master/new_data\train\brown blight：91张
+验证集D:/Desktop/A/tea_tf2.3/tea_tf2.3-master/new_data\val\brown blight：22张
+测试集D:/Desktop/A/tea_tf2.3/tea_tf2.3-master/new_data\test\brown blight：0张
+*********************************gray light*************************************
+gray light类按照0.8：0.2：0.0的比例划分完成，一共100张图片
+训练集D:/Desktop/A/tea_tf2.3/tea_tf2.3-master/new_data\train\gray light：81张
+验证集D:/Desktop/A/tea_tf2.3/tea_tf2.3-master/new_data\val\gray light：19张
+测试集D:/Desktop/A/tea_tf2.3/tea_tf2.3-master/new_data\test\gray light：0张
+*********************************healthy*************************************
+healthy类按照0.8：0.2：0.0的比例划分完成，一共74张图片
+训练集D:/Desktop/A/tea_tf2.3/tea_tf2.3-master/new_data\train\healthy：60张
+验证集D:/Desktop/A/tea_tf2.3/tea_tf2.3-master/new_data\val\healthy：14张
+测试集D:/Desktop/A/tea_tf2.3/tea_tf2.3-master/new_data\test\healthy：0张
+*********************************red leaf spot*************************************
+red leaf spot类按照0.8：0.2：0.0的比例划分完成，一共143张图片
+训练集D:/Desktop/A/tea_tf2.3/tea_tf2.3-master/new_data\train\red leaf spot：115张
+验证集D:/Desktop/A/tea_tf2.3/tea_tf2.3-master/new_data\val\red leaf spot：28张
+测试集D:/Desktop/A/tea_tf2.3/tea_tf2.3-master/new_data\test\red leaf spot：0张
+*********************************white spot*************************************
+white spot类按照0.8：0.2：0.0的比例划分完成，一共142张图片
+训练集D:/Desktop/A/tea_tf2.3/tea_tf2.3-master/new_data\train\white spot：114张
+验证集D:/Desktop/A/tea_tf2.3/tea_tf2.3-master/new_data\val\white spot：28张
+测试集D:/Desktop/A/tea_tf2.3/tea_tf2.3-master/new_data\test\white spot：0张
+
+Process finished with exit code 0
+
+
+
+
+D:\app\Miniconda\envs\hehe\python.exe D:\vegetables_tf2.3\vegetables_tf2.3-master\vegetables_tf2.3-master\test_model.py
+Found 714 files belonging to 8 classes.
+2024-03-01 18:23:43.899613: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-03-01 18:23:44.427182: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 1323 MB memory:  -> device: 0, name: NVIDIA GeForce MX350, pci bus id: 0000:01:00.0, compute capability: 6.1
+Found 171 files belonging to 8 classes.
+2024-03-01 18:23:46.233647: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:185] None of the MLIR Optimization Passes are enabled (registered 2)
+2024-03-01 18:23:47.810891: I tensorflow/stream_executor/cuda/cuda_dnn.cc:369] Loaded cuDNN version 8201
+11/11 [==============================] - 5s 151ms/step - loss: 0.5033 - accuracy: 0.8363
+Mobilenet test accuracy : 0.8362573385238647
+[[14.  0.  1.  0.  4.  0.  0.  0.]
+ [ 0. 15.  1.  3.  0.  0.  0.  3.]
+ [ 6.  0. 13.  0.  0.  0.  0.  0.]
+ [ 0.  0.  0. 17.  0.  0.  0.  5.]
+ [ 1.  0.  1.  0. 17.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0. 13.  1.  0.]
+ [ 0.  0.  0.  0.  0.  0. 28.  0.]
+ [ 0.  0.  0.  2.  0.  0.  0. 26.]]
+
+[[0.73684211 0.         0.05263158 0.         0.21052632 0.
+  0.         0.        ]
+ [0.         0.68181818 0.04545455 0.13636364 0.         0.
+  0.         0.13636364]
+ [0.31578947 0.         0.68421053 0.         0.         0.
+  0.         0.        ]
+ [0.         0.         0.         0.77272727 0.         0.
+  0.         0.22727273]
+ [0.05263158 0.         0.05263158 0.         0.89473684 0.
+  0.         0.        ]
+ [0.         0.         0.         0.         0.         0.92857143
+  0.07142857 0.        ]
+ [0.         0.         0.         0.         0.         0.
+  1.         0.        ]
+ [0.         0.         0.         0.07142857 0.         0.
+  0.         0.92857143]]
+Found 714 files belonging to 8 classes.
+Found 171 files belonging to 8 classes.
+11/11 [==============================] - 2s 69ms/step - loss: 0.5912 - accuracy: 0.7661
+CNN test accuracy : 0.7660818696022034
+[[11.  0.  7.  0.  1.  0.  0.  0.]
+ [ 0. 21.  0.  0.  1.  0.  0.  0.]
+ [ 6.  0. 13.  0.  0.  0.  0.  0.]
+ [ 0.  4.  0.  9.  0.  0.  0.  9.]
+ [ 2.  0.  2.  0. 15.  0.  0.  0.]
+ [ 0.  0.  0.  0.  0. 14.  0.  0.]
+ [ 0.  1.  0.  1.  0.  0. 26.  0.]
+ [ 0.  3.  0.  3.  0.  0.  0. 22.]]
+
+[[0.57894737 0.         0.36842105 0.         0.05263158 0.
+  0.         0.        ]
+ [0.         0.95454545 0.         0.         0.04545455 0.
+  0.         0.        ]
+ [0.31578947 0.         0.68421053 0.         0.         0.
+  0.         0.        ]
+ [0.         0.18181818 0.         0.40909091 0.         0.
+  0.         0.40909091]
+ [0.10526316 0.         0.10526316 0.         0.78947368 0.
+  0.         0.        ]
+ [0.         0.         0.         0.         0.         1.
+  0.         0.        ]
+ [0.         0.03571429 0.         0.03571429 0.         0.
+  0.92857143 0.        ]
+ [0.         0.10714286 0.         0.10714286 0.         0.
+  0.         0.78571429]]
+
+进程已结束，退出代码为 0

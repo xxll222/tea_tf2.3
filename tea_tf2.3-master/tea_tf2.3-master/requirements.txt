@@ -1,0 +1,9 @@
+#tensorflow-cpu == 2.3.0
+#pyqt5~=5.12
+#pillow~=9.5.0
+#opencv-python~=4.8.1.78
+#matplotlib
+#h5py~=2.10.0
+#numpy~=1.18.5
+#scipy~=1.4.1
+##requests~=2.31.0
